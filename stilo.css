@@ -1,0 +1,176 @@
+body {
+    background: url('https://cdn.dribbble.com/users/24711/screenshots/1814455/marvel-menu-pattern_2x.png?compress=1&resize=400x300&vertical=top');
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    font-size: 100%;
+}
+
+#legenda {
+    font-size: 20px;
+    font-family: 'Silkscreen', cursive;
+}
+
+
+#titulo {
+    color:white;
+    font-family: 'Silkscreen', cursive;
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin-top: 1rem;
+    margin-bottom: .7rem;
+}
+
+#texto-apresentacao {
+    border: 5px solid rgb(102, 120, 128);
+    font-family: 'Silkscreen', cursive;
+}
+
+#texto {
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    background-color: rgb(250, 252, 254);
+    opacity: 0.73;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Silkscreen', cursive;
+      
+
+    
+}
+
+#caixa-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#box{
+    
+    border: 5px solid rgb(214, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 2%;
+    background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.73;
+
+    
+    
+}
+
+#subtitulo{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Silkscreen', cursive;  
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#texto-entrada, #texto-saida {
+    margin: 1%;
+    margin-top: 10px;
+    font-size: 160%;
+    background-color: rgb(249, 252, 252);
+    border: 3.5px solid rgb(203, 21, 21);
+    font-family: 'Silkscreen', cursive;
+
+}
+
+#selecao {
+    margin: 1%;
+    background-color: rgb(244, 246, 246);
+    border: 3.5px solid rgb(211, 20, 20);
+    font-size: 120%;
+    font-family: 'Silkscreen', cursive;
+}
+
+
+
+
+#caixa-chave {
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+#chave {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Silkscreen', cursive;
+}
+
+input[type='radio']{
+    color: rgb(28, 60, 11)
+}
+
+#caixa-escolha {
+    margin: 1%;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+#codificar-btn, #decodificar-btn {
+    border: 3.5px solid rgb(243, 10, 10);
+    border-radius: 15px;
+    font-size: 96%;
+    background-color: rgb(243, 247, 247);
+    font-family: 'Silkscreen', cursive;
+}
+
+.botao:hover {
+    border: 4px solid rgb(241, 13, 13);
+}
+
+.botao:active {
+    background-color: white;
+}
+
+
+
+
+#confirma-button {
+    margin: 1%;
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    font-family: 'Silkscreen', cursive;
+
+}
+
+
+#btn-apagar {
+    border: 3.5px solid rgb(251, 6, 6);
+    font-size: 110%;
+    padding: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(251, 251, 251);
+    font-family: 'Silkscreen', cursive;
+}
+
+.none {
+    display: none;
+}
+h2{
+  color:white;
+}
+label{
+    color:white;
+}
+h1{
+    text-align: center;
+}
